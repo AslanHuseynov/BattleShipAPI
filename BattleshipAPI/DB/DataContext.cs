@@ -17,7 +17,6 @@ namespace Company.Persistence.DB
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=DESKTOP-THVOU75\\MSSQLSERVER02;Database=BattleshipAPI;Trusted_Connection=true;TrustServerCertificate=true;");
         }
     }
 }
